@@ -1,10 +1,10 @@
-/* Reset some default styles */
+
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
 
-/* Apply styles to the header */
+
 header {
     background-color: #333;
     color: #fff;
@@ -26,7 +26,7 @@ header nav ul li a {
     color: #fff;
 }
 
-/* Apply styles to the hero section */
+
 .hero {
     background-image: url('background.jpg');
     background-size: cover;
@@ -44,9 +44,7 @@ header nav ul li a {
     margin-top: 20px;
 }
 
-/* Add styles for the features section, CTA section, and footer as needed */
 
-/* Create a simple button style */
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -56,14 +54,13 @@ header nav ul li a {
     border-radius: 5px;
 }
 
-/* Style for container to center content */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Media query for responsiveness */
+
 @media screen and (max-width: 768px) {
     header nav ul {
         text-align: center;
